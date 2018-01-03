@@ -1,8 +1,8 @@
 # Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
 class Solution(object):
     def reverseList(self, head):
@@ -10,3 +10,11 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
+        prev = None
+        curr = head
+        while(head):
+            nxt = curr.next
+            curr.next = prev
+            prev = curr
+            curr = nxt
+        return prev
