@@ -14,7 +14,7 @@ class Solution(object):
             return None
 
         ptA = headA
-        ptB =headB
+        ptB = headB
 
         while ptA is not ptB:
             if ptA is None:
