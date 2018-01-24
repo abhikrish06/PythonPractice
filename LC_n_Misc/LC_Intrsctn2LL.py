@@ -21,8 +21,9 @@ class Solution(object):
                 ptA = headB
             else:
                 ptA = ptA.next
+
             if ptB is None:
                 ptB = headA
             else:
                 ptB = ptB.next
-        return ptB
+        return ptB # or ptA

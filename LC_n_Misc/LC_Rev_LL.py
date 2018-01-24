@@ -45,11 +45,11 @@ class Solution:
         elif head != None and head.next == None:
             return head
         else:
-            temp = None
+            prev = None
             # next_node = None
             while head != None:
-                next_node = head.next
-                head.next = temp
-                temp = head
-                head = next_node
-            return temp
+                nxt = head.next
+                head.next = prev
+                prev = head
+                head = nxt
+            return prev
