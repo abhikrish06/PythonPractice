@@ -1,5 +1,5 @@
 def twoSum(self, nums, target):
-	outlst = []
+    outlst = []
     for i in range(len(nums)):
         for j in range(i+1,len(nums)):
             sumtrgt = nums[i]+nums[j]
@@ -8,4 +8,4 @@ def twoSum(self, nums, target):
             else:
                 continue
     
-    return(outlst);
+    return(outlst)

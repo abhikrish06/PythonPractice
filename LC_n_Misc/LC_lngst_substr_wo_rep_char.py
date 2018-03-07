@@ -4,4 +4,3 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        
