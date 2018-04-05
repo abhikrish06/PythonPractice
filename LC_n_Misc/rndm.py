@@ -96,15 +96,46 @@ from itertools import permutations
 
 import math
 
-def answer(area):
-    ar1 = []
-    while area > 0:
-        numl = math.sqrt(area)
-        nl = math.floor(numl)
-        ar1.append(int(nl*nl))
-        area -= (nl*nl)
-    #print(ar1)
+# def answer(area):
+#     ar1 = []
+#     while area > 0:
+#         numl = math.sqrt(area)
+#         nl = math.floor(numl)
+#         ar1.append(int(nl*nl))
+#         area -= (nl*nl)
+#     #print(ar1)
+#
+#     return ar1
+#
+# print(answer(15324))
 
-    return ar1
+# mylist1 = ["a", "b", "c"]
+# for ind, val in enumerate(mylist1):
+#     print('at index:', ind)
+#     print(val)
 
-print(answer(15324))
+# import re
+# street_pattern = r"^[0-9]*\s[A-Z][a-z]*" + \
+#     r"\s(Street|St|Rd|Road|Ave|Avenue|Blvd|Way|Wy)\.?$"
+# city_pattern = r"[A-Z][a-z]*,\s[A-Z]{2},\s[0-9]{5}$"
+# address_pattern = r"^[0-9]*\s[A-Z][a-z]*" + \
+#     r"\s(Street|St|Rd|Road|Ave|Avenue|Blvd|Way|Wy)\.?" + r"\n" + city_pattern
+# address_re = re.compile(address_pattern)
+# city_re = re.compile(city_pattern)
+# street_re = re.compile(street_pattern)
+# address = """1 Pennsylvania Ave.
+# Buffalo, NY, 14214"""
+# print(address)
+# matchStreet = re.match(street_re, "1 Pennsylvania Ave.")
+# matchCity = re.match(city_re,"Buffalo, NY, 14214")
+# matches = re.match(address_re, address)
+# print(matchStreet)
+# print(matchCity)
+# print(address_pattern)
+# print(matches)
+
+for i in range(10):
+    if i == 3:
+        i+=3
+    else:
+        print(i)
