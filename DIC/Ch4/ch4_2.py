@@ -25,7 +25,7 @@ def format_date(s):
     return y + "-" + MONTH_MAP[m[:3]] + "-" + d
 
 import pandas as pd
-df = pd.read_csv("file.tsv", sep="|")
+df = pd.read_csv("file.csv", sep="|")
 df["First Name"] = df["Name"].apply(
 lambda s: get_first_last_name(s)[0])
 df["Last Name"] = df["Name"].apply(

@@ -134,8 +134,11 @@ import math
 # print(address_pattern)
 # print(matches)
 
-for i in range(10):
-    if i == 3:
-        i+=3
-    else:
-        print(i)
+# for i in range(10):
+#     if i == 3:
+#         i+=3
+#     else:
+#         print(i)
+
+import numpy as np
+print(np.random.randint(1, 9))
