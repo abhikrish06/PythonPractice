@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936494f5-eecc-4681-bf50-f5b413cefe13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LC_n_Misc/LC_172_Fact_Trailing_Zeros.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LC_n_Misc/LC_853_Car_Fleet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/ML/HTML_parser_IX.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -80,8 +78,8 @@
       <list>
         <option value="$PROJECT_DIR$/LC_n_Misc/LC_202_Happy_Number.py" />
         <option value="$PROJECT_DIR$/LC_n_Misc/LC_172_Fact_Trailing_Zeros.py" />
-        <option value="$PROJECT_DIR$/ML/HTML_parser_IX.py" />
         <option value="$PROJECT_DIR$/LC_n_Misc/LC_853_Car_Fleet.py" />
+        <option value="$PROJECT_DIR$/ML/HTML_parser_IX.py" />
       </list>
     </option>
   </component>
@@ -123,11 +121,6 @@
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="LC_n_Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528513846777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New Files Added">
+      <created>1529517434148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529517434148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/ML/HTML_parser_IX.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
