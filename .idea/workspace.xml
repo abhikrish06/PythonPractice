@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936494f5-eecc-4681-bf50-f5b413cefe13" name="Default" comment="New Files Added">
-      <change afterPath="$PROJECT_DIR$/HR/HR_Arr_Lft_Rot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HR/HR_WC_38_Time_Savng.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_219_Cntn_Dups_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_303_Ranged_Sum_Qry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_500_KeyBrd_Rw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_669_Trim_BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_856_Scr_of_parenthsis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_859_Buddy_Strngs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_860_Lemonade_Chng.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/LC_867_Prime_Palin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_n_Misc/Reorder_log_File.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/Filename_Change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/HTML_IMG_IX.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC_n_Misc/LC_811.py" beforeDir="false" afterPath="$PROJECT_DIR$/LC_n_Misc/LC_811.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC_n_Misc/LC_853_Car_Fleet.py" beforeDir="false" afterPath="$PROJECT_DIR$/LC_n_Misc/LC_853_Car_Fleet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/HTML_parser_IX.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/HTML_parser_IX.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,13 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filename_Change.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ML/Filename_Change.py">
+      <file leaf-file-name="HTML_Cleanup_All.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ML/HTML_Cleanup_All.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,7 +190,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/Filename_Change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/HTML_Cleanup_All.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,15 +326,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="708" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943144" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28550512" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -745,12 +728,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Filename_Change.py">
+    <entry file="file://$PROJECT_DIR$/ML/HTML_Cleanup_All.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
