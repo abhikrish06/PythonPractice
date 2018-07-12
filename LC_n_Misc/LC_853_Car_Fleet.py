@@ -1,6 +1,3 @@
-# incorrect
-# incomplete
-
 class Solution:
     def carFleet(self, target, position, speed):
         """
@@ -9,11 +6,14 @@ class Solution:
         :type speed: List[int]
         :rtype: int
         """
-        list3 = [a + b for a, b in zip(position, speed) if a + b <= target]
-        # print(list3)
-        set_list3 = set(list3)
+        tm = [float(target - pos)/sp for pos, sp in sorted(zip(position, speed))]
+        cntr, cur_tm = 0, 0
+        for i in tm[::-1]:
+            if i > cur_tm:
+                cntr += 1
+                cur_tm = i
 
-        return len(set_list3)
+        return cntr
 
 
 obj = Solution()
