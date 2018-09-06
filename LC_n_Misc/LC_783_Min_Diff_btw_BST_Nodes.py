@@ -6,18 +6,13 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def inOrder(self, root, lst):
-        """
-        :param root: Treenode
-        :param lst: list
-        :return: list
-        """
-        if not root:
+    def inOrderTrvsl(self, node, lst):
+        if not node:
             return []
         else:
-            self.inOrder(root.left)
-            lst.append(root.val)
-            self.inOrder(root.right)
+            self.inOrderTrvsl(node.left, lst)
+            lst.append(node.val)
+            self.inOrderTrvsl(node.right, lst)
         return lst
 
     def minDiffInBST(self, root):
@@ -25,8 +20,8 @@ class Solution:
         :type root: TreeNode
         :rtype: int
         """
-        min_val = float("Inf")
-        lst = self.inOrder(root, [])
+        min_diff = float("inf")
+        lst = self.inOrderTrvsl(root, [])
         for i in range(1, len(lst)):
-            min_val = min(min_val, lst[i] - lst[i-1])
-        return min_val
+            min_diff = min(min_diff, lst[i] - lst[i - 1])
+        return min_diff
