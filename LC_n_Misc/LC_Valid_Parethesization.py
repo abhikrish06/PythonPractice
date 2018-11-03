@@ -20,3 +20,7 @@ class Solution:
                 if (lastopen, char) not in match_set:
                     return False
         return len(stck) == 0
+
+obj = Solution()
+print(obj.isValid('()'))
+print(obj.isValid('([)]'))
