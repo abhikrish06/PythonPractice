@@ -1,2 +1,8 @@
 # PythonPractice
-HR_LC_CTCI Practice
+Repository containing all Python Practice Questions
+
+Sources:
+Leetcode
+Hackerrank
+CTCI
+Some Misc
